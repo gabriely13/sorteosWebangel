@@ -1,0 +1,13 @@
+@(message: String)
+
+@****
+@main("Welcome to Play") {
+
+    @play20.welcome(message, style = "Java")
+    }
+***@
+
+<form action="@{routes.aplication.decirHola()}" method="GET">
+    <input type="submit"  value="decir hola!"/>
+    </form>
+
